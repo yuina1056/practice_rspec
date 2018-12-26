@@ -1,6 +1,6 @@
 require_relative '../src/calc.rb'
 
-RSpec.describe '計算' do
+RSpec.describe 'calc' do
   before do
     @calc = Calc.new
   end
